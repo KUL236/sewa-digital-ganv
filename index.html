@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SEWA Smart Village</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- MOVING ALERT BAR -->
+    <div class="ticker">
+        <div class="ticker-wrap">
+            <div class="ticker-move">
+                <span>🚨 साइबर फ्रॉड से बचें — कोई भी लिंक खोलने से पहले Cyber Safety पर जाँच करें</span>
+                <span>🚑 एम्बुलेंस 108</span>
+                <span>👮 पुलिस 112</span>
+                <span>👩 महिला हेल्पलाइन 181</span>
+                <span>🌐 cyber-defense-ecru.vercel.app</span>
+
+                <!-- Duplicate for seamless loop -->
+                <span>🚨 साइबर फ्रॉड से बचें — कोई भी लिंक खोलने से पहले Cyber Safety पर जाँच करें</span>
+                <span>🚑 एम्बुलेंस 108</span>
+                <span>👮 पुलिस 112</span>
+                <span>👩 महिला हेल्पलाइन 181</span>
+                <span>🌐 cyber-defense-ecru.vercel.app</span>
+            </div>
+        </div>
+    </div>
+    <!-- TOP BAR -->
+    <div class="sewa-search">
+        <input id="siteSearch" placeholder="Search inside SEWA portal…">
+    </div>
+    <div class="topbar">
+        <div>SEWA • Didwana, Rajasthan</div>
+        <div>
+            <a href="https://www.instagram.com/one_short_village?igsh=MTMyazFzem13bzN2eA=="
+                target="_blank">Instagram</a>
+            <a href="https://cyber-defense-ecru.vercel.app" target="_blank">Cyber Safety</a>
+            <a href="admin.html">Admin</a>
+            <button onclick="toggleTheme()">🌙</button>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" style="background-image:url('images/hero.jpeg')">
+        <div class="overlay">
+            <h1 class="tricolor">सेवा</h1>
+            <p>Smart Digital Village • Didwana Rajasthan</p>
+            <div class="hero-actions">
+                <a href="#ai">Ask Village AI</a>
+                <a href="#gallery">Explore Village</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP -->
+    <section id="map" class="card">
+        <h2>📍 SEWA Location</h2>
+        <iframe src="https://maps.google.com/maps?q=Soopka%20Didwana%20Rajasthan&t=&z=13&output=embed"></iframe>
+    </section>
+
+    <!-- AI -->
+    <section id="ai" class="card ai-card">
+        <h2>🤖 SEWA Village AI</h2>
+        <p>Hindi • Marwari • English supported</p>
+        <div class="ai-box">
+            <input id="q" placeholder="पूछिए... Ask your village AI">
+            <button onclick="ask()">Search</button>
+        </div>
+        <div id="ans" class="ai-result"></div>
+    </section>
+    <div class="ai-links">
+        <a href="https://chat.openai.com" target="_blank">🤖 OpenAI</a>
+        <a href="https://gemini.google.com" target="_blank">✨ Google Gemini</a>
+    </div>
+    <!-- GOVERNMENT -->
+
+    <section class="card">
+        <h2>Government & Digital Services</h2>
+        <div class="gov-grid">
+            <a href="https://www.rajasthan.gov.in">🏛 Rajasthan</a>
+            <a href="https://www.india.gov.in">🇮🇳 India</a>
+            <a href="https://www.skillindia.gov.in">🎓 Skill India</a>
+            <a href="https://pmkisan.gov.in">🌾 PM Kisan</a>
+            <a href="https://pmaymis.gov.in">🏠 PM Awas</a>
+            <a href="https://nrega.nic.in">👷 MGNREGA</a>
+            <a href="https://digilocker.gov.in">📂 DigiLocker</a>
+            <a href="https://uidai.gov.in">🪪 Aadhaar</a>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="card">
+        <h2>📸 SEWA Mandir & Heritage</h2>
+
+        <h3 class="section-title">श्री पाबूजी धाम</h3>
+        <div class="grid small">
+            <img src="images/pabuji1.jpeg">
+            <img src="images/pabuji2.jpeg">
+            <img src="images/pabuji3.jpeg">
+            <img src="images/pabuji4.jpeg">
+        </div>
+
+        <h3 class="section-title">श्री नागणेचा माता मंदिर</h3>
+        <div class="grid small">
+            <img src="images/naganecha1.jpeg">
+            <img src="images/naganecha2.jpeg">
+            <img src="images/naganecha3.jpeg">
+            <img src="images/naganecha4.jpeg">
+        </div>
+
+        <h3 class="section-title">श्री नागजी महाराज</h3>
+        <div class="grid small">
+            <img src="images/nagji1.jpeg">
+            <img src="images/nagji2.jpeg">
+            <img src="images/nagji3.jpeg">
+        </div>
+
+        <h3 class="section-title">हरी ओम गौशाला</h3>
+        <div class="grid small">
+            <img src="images/gaushala1.jpeg">
+            <img src="images/gaushala2.jpeg">
+            <img src="images/gaushala3.jpeg">
+            <img src="images/gaushala4.jpeg">
+        </div>
+
+        <h3 class="section-title">SEWA Village Life</h3>
+        <div class="grid small">
+            <img src="images/school.jpeg">
+            <img src="images/cricket.jpeg">
+            <img src="images/pond.jpeg">
+            <img src="images/nature1.jpeg">
+            <img src="images/nature2.jpeg">
+            <img src="images/nature3.jpeg">
+        </div>
+    </section>
+
+    <!-- HELP DESK -->
+    <section class="card modern-form">
+        <h2>📋 Village Help Desk</h2>
+
+        <div class="glass-form">
+            <input id="qname" placeholder="👤 Your Name">
+            <input id="qmobile" placeholder="📞 Mobile Number">
+            <textarea id="qtext" placeholder="📝 Describe your problem or request"></textarea>
+            <button onclick="submitQuery()">Submit Request</button>
+        </div>
+
+        <h3>💬 Village Feedback</h3>
+
+        <div class="glass-form">
+            <textarea id="ftext" placeholder="Write your feedback for SEWA Village"></textarea>
+            <button onclick="sendFeedback()">Send Feedback</button>
+        </div>
+
+        <div id="formStatus"></div>
+    </section>
+
+    <section class="card whatsapp-alert">
+        <h2>📢 SEWA WhatsApp Quick Alert</h2>
+        <p>Join SEWA Digital Village WhatsApp Group for emergency & village updates.</p>
+
+        <input id="waLink" placeholder="Paste SEWA WhatsApp Group Link here">
+        <button onclick="openWhatsApp()">Join WhatsApp Group</button>
+
+        <div id="waStatus"></div>
+    </section>
+
+    <!-- EMERGENCY -->
+    <section class="card emergency">
+        <h2>🚨 Emergency</h2>
+        <div class="help-grid">
+            <a href="tel:112">Police 112</a>
+            <a href="tel:108">Ambulance 108</a>
+            <a href="tel:181">Women 181</a>
+            <a href="https://maps.google.com/?q=hospital+near+me" target="_blank">Nearest Hospital</a>
+        </div>
+    </section>
+    <section class="card contact-card">
+        <h2>📞 SEWA Village Contacts</h2>
+        <div class="contact-grid">
+            <div>👨‍🌾 Sarpanch: +91 XXXXXXXX</div>
+            <div>📞 Village Office: +91 XXXXXXXX</div>
+            <div>🏥 Hospital: +91 XXXXXXXX</div>
+            <div>🚓 Police: 112</div>
+            <div>📧 Email: </div>
+        </div>
+    </section>
+    <footer>© SEWA Smart Village</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
