@@ -137,6 +137,96 @@ body {
     box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
 }
 
+/* ========== 📰 NEWS SECTION ========== */
+.news-section {
+    background: linear-gradient(135deg, rgba(255, 153, 51, 0.1), rgba(0, 255, 204, 0.05));
+    border: 2px solid rgba(255, 153, 51, 0.3);
+}
+
+.news-section h2 {
+    color: #ff9933;
+    text-shadow: 0 0 10px rgba(255, 153, 51, 0.5);
+    margin-bottom: 20px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid rgba(0, 255, 204, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 255, 204, 0.3);
+}
+
+.news-priority {
+    border-left: 4px solid #ff9933;
+    background: rgba(255, 153, 51, 0.1);
+}
+
+.news-date {
+    color: #aaa;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+}
+
+.news-title {
+    color: #00ffcc;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-shadow: 0 0 8px rgba(0, 255, 204, 0.3);
+}
+
+.news-title-en {
+    color: #888;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.news-image {
+    width: 100%;
+    border-radius: 12px;
+    margin: 10px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.news-desc {
+    color: #ddd;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.news-tag {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff9933, #00ffcc);
+    color: black;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.loading-text, .no-news {
+    text-align: center;
+    color: #888;
+    padding: 40px;
+    font-size: 1.1rem;
+}
+
+/* ========== END NEWS SECTION ========== */
+
 /* AI */
 .ai-box {
     display: flex;
@@ -232,6 +322,10 @@ h3 {
 
     .tricolor {
         font-size: 2.5rem;
+    }
+    
+    .news-grid {
+        grid-template-columns: 1fr;
     }
 }
 
