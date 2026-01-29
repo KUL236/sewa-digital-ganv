@@ -1,54 +1,15 @@
 [
   {
-    "id": "a35231fd",
-    "date": "29/1/2026",
-    "timestamp": 1769730250572,
-    "title_hindi": "Add new section of news",
-    "title_english": "Add new section of news",
-    "description_hindi": "Add new section of news",
-    "description_english": "Add new section of news",
+    "id": "welcome001",
+    "date": "29/01/2026",
+    "timestamp": 1738187700000,
+    "title_hindi": "🎉 SEWA AI Bot शुरू हुआ!",
+    "title_english": "SEWA AI Bot is now live!",
+    "description_hindi": "अब आप Telegram @sewa_ganv_bot से सीधे वेबसाइट पर समाचार, फोटो और दस्तावेज़ अपलोड कर सकते हैं।",
+    "description_english": "You can now upload news, photos and documents directly to the website via Telegram @sewa_ganv_bot",
     "image": null,
-    "category": "news",
-    "priority": "medium",
-    "tags": []
-  },
-  {
-    "id": "6d4f5d77",
-    "date": "29/1/2026",
-    "timestamp": 1769730129163,
-    "title_hindi": "Add this photo in sewa Village life",
-    "title_english": "Add this photo in sewa Village life",
-    "description_hindi": "Add this photo in sewa Village life",
-    "description_english": "Add this photo in sewa Village life",
-    "image": null,
-    "category": "news",
-    "priority": "medium",
-    "tags": []
-  },
-  {
-    "id": "77e92b0d",
-    "date": "29/1/2026",
-    "timestamp": 1769730028559,
-    "title_hindi": "Did you add todays latest news on web site",
-    "title_english": "Did you add todays latest news on web site",
-    "description_hindi": "Did you add todays latest news on web site",
-    "description_english": "Did you add todays latest news on web site",
-    "image": null,
-    "category": "news",
-    "priority": "medium",
-    "tags": []
-  },
-  {
-    "id": "6fc1ab24",
-    "date": "29/1/2026",
-    "timestamp": 1769729994128,
-    "title_hindi": "Hello",
-    "title_english": "Hello",
-    "description_hindi": "Hello",
-    "description_english": "Hello",
-    "image": null,
-    "category": "news",
-    "priority": "medium",
-    "tags": []
+    "category": "announcement",
+    "priority": "high",
+    "tags": ["ai", "launch", "telegram"]
   }
 ]
