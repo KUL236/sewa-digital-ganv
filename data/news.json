@@ -1,5 +1,18 @@
 [
   {
+    "id": "420af051",
+    "date": "29/1/2026",
+    "timestamp": 1769730725625,
+    "title_hindi": "Naganecha mata ki aarti shubh 5 baje hogi",
+    "title_english": "Naganecha mata ki aarti shubh 5 baje hogi",
+    "description_hindi": "Naganecha mata ki aarti shubh 5 baje hogi",
+    "description_english": "Naganecha mata ki aarti shubh 5 baje hogi",
+    "image": null,
+    "category": "news",
+    "priority": "medium",
+    "tags": []
+  },
+  {
     "id": "welcome001",
     "date": "29/01/2026",
     "timestamp": 1738187700000,
@@ -10,6 +23,10 @@
     "image": null,
     "category": "announcement",
     "priority": "high",
-    "tags": ["ai", "launch", "telegram"]
+    "tags": [
+      "ai",
+      "launch",
+      "telegram"
+    ]
   }
 ]
